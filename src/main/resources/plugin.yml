@@ -1,0 +1,5 @@
+name: IpReveal
+version: '${project.version}'
+main: javier.ipreveal.IpReveal
+api-version: 1.19
+description: Reveals IP of player on death
