@@ -13,7 +13,8 @@ public class OnPlayerDeath implements Listener {
     @EventHandler
     public void PlayerDeath(PlayerDeathEvent event){
         Player p = event.getEntity();
-        Bukkit.broadcastMessage(p + "'s ip: "+GetIp(p));
+        String username = p.getDisplayName();
+        Bukkit.broadcastMessage(username + "'s ip: "+GetIp(p));
     }
     public String GetIp(Player p){
         return Objects.requireNonNull(p.getAddress()).getAddress().toString().split("/")[1];
