@@ -1,6 +1,6 @@
 # IP Revealer Plugin
 IP revealer plugin for Minecraft.\
-Player's IP is sent in chat on death\
+Player's IP is sent in chat on death
 # Details:
 The first ever plugin I made myself!\
 Please do not abuse this plugin and do anything malicious with it
